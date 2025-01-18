@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
             transform.position += Vector3.back * 0.5f;
         }
 
-        if (Input.HetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             transform.position += Vector3.left * 0.25f;
 
